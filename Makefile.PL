@@ -20,9 +20,10 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Parse::SQL",
   "PREREQ_PM" => {
-    "Parser::MGC" => "0.09"
+    "Parser::MGC" => "0.09",
+    "parent" => 0
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }

@@ -4,7 +4,7 @@ use strict;
 use warnings FATAL => 'all';
 use parent qw(Parser::MGC);
 
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 use constant DEBUG => 0;
 
@@ -20,7 +20,7 @@ Parse::SQL - simple SQL parser
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 
